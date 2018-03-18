@@ -1,0 +1,18 @@
+<p>Get ready to be inspired today</p>
+<h2>You can add Quotes!!</h2>
+<div class="container">
+<form (submit)="addQuote(quote.value)">
+  <label for="Quote">New Quote:</label>
+  <input type="text">
+  <button class="btn btn-success" id="hello">Submit</button>
+</form>
+<div class="panel" *ngFor='let quote of quotes;'>
+<ul>
+  <div class="w3-panel w3-card">
+    <p class="panel panel-default">{{quote.name}}</p>
+    <app-quote-details [quote]='quotes'></app-quote-details>
+  </div>
+</ul>
+<button (click) ="onclick()" class="btn btn-danger" id="danger">Delete</button>
+</div>
+</div>

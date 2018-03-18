@@ -1,0 +1,27 @@
+p {
+  text-align:center;
+  background-color: linen;
+  height: 50px;
+  padding-top: 15px;
+}
+.quotes li {
+
+}
+.w3-card {
+  background-color: yellow;
+  padding-top:20px;
+  border-left: 8px solid blue;
+  text-decoration: none;
+}
+h2 {
+  text-align: center;
+}
+form {
+  padding-bottom: 30px;
+  text-align: center;
+  padding-top: 20px;
+}
+#danger{
+  padding-bottom: 10px;
+  margin-left: 50px;
+}
