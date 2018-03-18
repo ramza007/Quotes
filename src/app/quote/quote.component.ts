@@ -17,6 +17,7 @@ export class QuoteComponent implements OnInit {
     new Quote(8, 'Honesty is the first chapter in the book of wisdom. By Thomas Jefferson', 'By Thomas Jefferson'),
     new Quote(9, 'The journey of a thousand miles begins with one step. By Lau Tzu','By Lau Tzu'),
     new Quote(10, "Words may show a man's wit but actions his meaning. By Benjamin Franklin",'By Benjamin Franklin'),
+    new Quote(11, "Look before you leap. By Ramza Reseni", 'original By Leonardo Da Vinchi')
   ]
 
 
