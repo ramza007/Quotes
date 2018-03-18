@@ -10,8 +10,8 @@ p {
 /*The colours around the quotes*/
 .w3-card {
   background-color: cornflowerblue;
-  padding-top:20px;
-  border-left: 8px solid cornflowerblue;
+  padding:20px;
+  padding-bottom: 10px;
 }
 
 /*The text above the new quote form*/
