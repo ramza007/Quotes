@@ -6,3 +6,8 @@
   opacity: 0.8;
   font-family: 'Times New Roman', Times, serif;
 }
+p {
+  text-align: bottom;
+  font: lighter;
+  font-size: 10px;
+}
