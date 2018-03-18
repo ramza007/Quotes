@@ -7,16 +7,16 @@ import {Quote} from '../quote'
 })
 export class QuoteComponent implements OnInit {
   quotes = [
-    new Quote(1,'Nine tenths of wisdom consists of being wise in time.','By Tevin Milla'),
-    new Quote(2,'Anything more than the true would be too much.','By Sam Ngigi'),
-    new Quote(3,'Its much better to do it in a way that nobody knows about it.','By Leo Tolstoy'),
-    new Quote(4,`Movies have takes.But plays are like life you don't really get takes.`,'By Chris Rock'),
-    new Quote(5,'The end of a man is action, and not thought, though it be of the noblest.','By Thomas Carlyle'),
-    new Quote(6,'The more we do the more we can do;the more busy we are, the more leisure we have.','By William Hazlitt'),
-    new Quote(7,'The more you learn the more you earn.','By Warren Buffet'),
-    new Quote(8,'One who sees inaction in action and action in inaction is intelligent among men.','By Bhagavad Gita'),
-    new Quote(9,'Our acts mark or mar us, we are the children of our own deeds.','By Victor Hugo'),
-    new Quote(10,`Words may show a man's wit but actions his meaning.`,'By Benjamin Franklin'),
+    new Quote(1, 'Learning never exhausts the mind', 'By Leonardo da Vinci'),
+    new Quote(2, 'There is no charm equal to tenderness of heart', 'By Jane Austen'),
+    new Quote(3, 'All that we see or seem is but a dream within a dream.', 'By Edgar Allan Poe'),
+    new Quote(4, 'It is far better to be alone, than to be in bad company.', 'By George Washington'),
+    new Quote(5, 'Happiness can only exist in acceptance', 'By George Orwell'),
+    new Quote(6, 'Love has no age, no limit; and no death.', 'By John Galsworthy'),
+    new Quote(7, "You can't blame gravity for falling in love.",'By Albert Einstein'),
+    new Quote(8, 'Honesty is the first chapter in the book of wisdom.', 'By Thomas Jefferson'),
+    new Quote(9, 'The journey of a thousand miles begins with one step.', 'By Lau Tzu'),
+    new Quote(10, "Words may show a man's wit but actions his meaning.",'By Benjamin Franklin'),
   ]
 
 
