@@ -1,3 +1,4 @@
+/*affect the font within the box*/
 p {
   text-align:center;
   background-color: linen;
@@ -5,20 +6,28 @@ p {
   padding-top: 15px;
   font-family: cursive;
 }
+
+/*The colours around the quotes*/
 .w3-card {
   background-color: yellow;
   padding-top:20px;
   border-left: 8px solid blue;
-  text-decoration: none;
 }
+
+/*The text above the new quote form*/
 h2 {
   text-align: center;
+  font-family: fantasy;
 }
+
+/*new quote orm*/
 form {
   padding-bottom: 30px;
   text-align: center;
   padding-top: 20px;
 }
+
+/*Delete Button*/
 #danger{
   padding-bottom: 10px;
   margin-left: 50px;
