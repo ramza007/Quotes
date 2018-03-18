@@ -3,9 +3,7 @@ p {
   background-color: linen;
   height: 50px;
   padding-top: 15px;
-}
-.quotes li {
-
+  font-family: cursive;
 }
 .w3-card {
   background-color: yellow;
