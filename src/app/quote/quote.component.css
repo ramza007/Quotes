@@ -9,9 +9,9 @@ p {
 
 /*The colours around the quotes*/
 .w3-card {
-  background-color: yellow;
+  background-color: cornflowerblue;
   padding-top:20px;
-  border-left: 8px solid blue;
+  border-left: 8px solid cornflowerblue;
 }
 
 /*The text above the new quote form*/
@@ -20,7 +20,7 @@ h2 {
   font-family: fantasy;
 }
 
-/*new quote orm*/
+/*new quote form*/
 form {
   padding-bottom: 30px;
   text-align: center;
