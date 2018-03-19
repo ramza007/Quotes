@@ -1,4 +1,4 @@
-import { Component, OnInit,} from '@angular/core';
+import { Component, OnInit, HostBinding,} from '@angular/core';
 import {Quote} from '../quote'
 @Component({
   selector: 'app-quote',
@@ -19,9 +19,24 @@ export class QuoteComponent implements OnInit {
     new Quote(10, "Words may show a man's wit but actions his meaning. By Benjamin Franklin",'By Benjamin Franklin'),
     new Quote(11, "Look before you leap. By Ramza Reseni", 'original By Leonardo Da Vinchi')
   ]
+   
+  @HostBinding('attr.class') cssClass = 'row';
+  votes: number;
+  title: string;
+  link: string;
 
+  constructor() { 
+    this.title = 'Angular 2';
+    this.link = 'http://angular.io';
+    this.votes = 10;
+   }
+   voteUp(){
+     this.votes += 1;
+   }
 
-  constructor() {  }
+   voteDown(){
+     this.votes -= 1;
+   }
   ngOnInit() {
 }
 }

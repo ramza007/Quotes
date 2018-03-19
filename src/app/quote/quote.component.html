@@ -4,7 +4,7 @@
 <div class="container">
 <form>
   <label for="Quote">New Quote:</label>
-  <input type="text">
+  <input type="text" name="Add your quote" />
   <button class="btn btn-success" id="hello">Submit</button>
 </form>
 <div class="panel" *ngFor='let quote of quotes;'>
@@ -14,7 +14,7 @@
     <app-quote-details [quote]='quotes'></app-quote-details>
   </div>
 </ul>
-<button (click) ="onclick()" class="btn btn-danger" id="danger">Done</button>
+<button (click) ="onclick()" class="btn btn-danger" id="go">Done</button>
 </div>
 </div>
 </body>
