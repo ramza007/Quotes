@@ -19,23 +19,17 @@ export class QuoteComponent implements OnInit {
     new Quote(10, "Words may show a man's wit but actions his meaning. By Benjamin Franklin",'By Benjamin Franklin'),
     new Quote(11, "Look before you leap. By Ramza Reseni", 'original By Leonardo Da Vinchi')
   ]
-   
-  @HostBinding('attr.class') cssClass = 'row';
-  votes: number;
-  title: string;
-  link: string;
+  deleteQuote(isComplete, index) {
+    if (isComplete) {
+      let toDelete = confirm(`Are you sure you want to delete ${this.quotes[index].name}`)
+
+      if (toDelete) {
+        this.quotes.splice(index, 1)
+      }
+    }
+  }
 
   constructor() { 
-    this.title = 'Angular 2';
-    this.link = 'http://angular.io';
-    this.votes = 10;
-   }
-   voteUp(){
-     this.votes += 1;
-   }
-
-   voteDown(){
-     this.votes -= 1;
    }
   ngOnInit() {
 }
