@@ -5,7 +5,9 @@
   background-color: rgb(111, 111, 223);
   opacity: 0.8;
   font-family: 'Times New Roman', Times, serif;
+  position: relative;
 }
+
 p {
   text-align: bottom;
   font: lighter;
